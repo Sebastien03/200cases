@@ -1,5 +1,7 @@
-const seuil= 200;
+var seuil;
 var i;
-	for (var i = 1; i < 201; i++){
-		document.write("<li>",i,"</li>");
-	}
+
+var seuil= prompt("Combien veut tu de case ? Entre 1 et 200")
+for (var i = 1; i <= seuil ; i++) {
+    document.getElementById('case').innerHTML += "<li>" +i+ "</li>";
+}
