@@ -21,3 +21,11 @@ li{
     font-family: Arial, sans-serif;
     text-align: center;
 }
+li:nth-child(2n+1){
+	background-color: pink;
+}
+noscript{
+	font-size: 30px;
+	text-align: center;
+	color: red;
+}
