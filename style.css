@@ -9,17 +9,15 @@ h1{
 }
 li{
 	list-style-type: none;
-	border width: 2px;
-	border-style: ridge;
+	border width: 1px;
+	border-style: solid;
 	border-color: grey;
-	width: 38px;
-	height: 38px;
-	font-size: 30px;
-	text-align: center;
+	width: 39px;
+	height: 39px;
+	font-size: 20px;
+	align-items: center;
 	background-color: #A600A8;
-}
-ul{
-	display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+	display: inline-block;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
