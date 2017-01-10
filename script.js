@@ -1,10 +1,8 @@
 function NombresdeCases(){
-	var nombres = ;
-	var nbDeTours, compteur ;
-	var question = "Donne moi le nombre de case que tu veut?";
-	var tableau = New Array ;
-	var nbdeCases = ;
-
-nbDeTours = 1;
-		while nbDeTours < nbdeCases;
-		 tableau.push(parseInt(prompt("Donne moi le nombres de case que tu veut?")));
+// Affiche le nombres de cases demander //
+const seuil= 200;
+var nbDeCases;
+// Déclaration de la variables et de la constante //
+	for( var nbDeCases= 1;nbDeCases < 201;nbDeCases++){
+		document.writer("<li>,",nbDeCases,"</li>");
+	}
