@@ -7,7 +7,18 @@ h1{
 	font-family: Arial, sans-serif;
 	font-size: 60px;
 }
-li{
-	font-size: 40px;
+td{
 	list-style-type: none;
+	border width: 2px;
+	border-style: ridge;
+	border-color: grey;
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	text-align: center;
+}
+tr{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
